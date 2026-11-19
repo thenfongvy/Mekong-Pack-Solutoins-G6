@@ -1,0 +1,42 @@
+.btn {
+    display: flex;
+    justify-content: space-around;
+}
+.sect2-btn-small {
+    width: 280px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #0D9488;
+    border: 1px solid #0D9488;
+    border-radius: 8px;
+    padding: 12px 5px;
+    font-size: 16px;
+    margin-right: 30px;
+}
+
+.sect2-btn-small:hover {
+    background-color: #0D9488;
+    color: white;
+}
+
+.contact-btn {
+    width: 280px;
+    height: 30px;
+    display: flex;
+    background-color: #079d91;
+    color: white;
+    text-decoration: none;
+    padding: 12px 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-btn:hover {
+    background-color: #06776e;
+}
